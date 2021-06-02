@@ -1,0 +1,21 @@
+.about {
+	height: 80vh;
+	width: 100%;
+	background-color: var(--color-background-dark);
+}
+
+.about__heading {
+	color: var(--color-text-light);
+	position: relative;
+	font-size: 2rem;
+}
+
+.about__heading::after {
+	content: "";
+	position: absolute;
+	bottom: -0.2rem;
+	left: 0.5rem;
+	height: 5px;
+	width: 40px;
+	background-color: var(--color-main);
+}
